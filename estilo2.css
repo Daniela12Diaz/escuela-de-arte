@@ -1,0 +1,199 @@
+#principal{
+	width: 1850px;
+	height: 150px;
+	border: 1px solid #C0C0C0;
+	margin:auto;
+	background: 	#070346;
+   }
+   
+  
+
+
+
+header {
+	width: 1850px;; /* Establecemos que el header abarque el 100% del documento */
+	height: 150px;
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#252932;
+	margin-bottom:20px;
+}
+
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:200px;
+	float:left;
+}
+
+header nav {
+	float:right;
+	line-height:200px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#3aadf5;
+	border-radius:50px;
+}
+#Contenido{
+	width: 100%;
+	  height: 700px;
+	  background: #F0FFF0;
+	  margin-top: 10px;
+	  float:left;
+	
+	}
+/*diseño formulario*/
+
+
+
+section{
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-attachment: fixed;
+	}
+	
+	.contenedor1 .form .form-header .form-title{
+	
+	  font-weight: normal;
+	  font-family:sans-serif;
+	  text-align: center;
+	  padding: 14px 0px;
+	  color:#515A5A;
+	}
+	 .contenedor1 .form{
+	 background: rgba(102, 120, 204, 0.6);
+	 width: 90%;
+	 max-width: 650px;
+	 margin: auto;
+	 padding: 5px 35px;
+	 margin-top: 30px;
+	 padding-bottom: 30px;
+	 border-radius: 8px;
+	
+	  }
+	  .contenedor1 .form .form-label{
+	display: block;
+	color:#515A5A ;
+	font-size: 16px;
+	font-family:sans-serif;
+	position: relative;
+	
+	  }
+	  .contenedor1 .form .form-input{
+	background: rgba(0,0,0,.3);
+	border:none;
+	outline: none;
+	border-bottom:2px solid #D7C5EF  ;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 12px;
+	color:#FBFCFC;
+	font-family:sans-serif;
+	
+	  }
+	
+	.contenedor1 .form .btn-submit{
+	width: 100%;
+	font-family:sans-serif;
+	outline: none;
+	color:#515A5A;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	}
+	
+	.contenedor1 .form .btn-submit:hover{
+	  background: #E5D7F8 ;
+	}
+	body{
+		background-color: lightgrey;
+		font-family: sans-serif;
+	  }
+	  
+	  .container{
+		margin: auto;
+		background-color: white;
+		width: 1500px;
+		padding: 30px;
+	  }
+	  
+	  ul, li {
+		  padding: 0;
+		  margin: 0;
+		  list-style: none;
+	  }
+	  
+	  ul.slider{
+		position: relative;
+		width: 1500px;
+		height: 400px;
+	  }
+	  
+	  ul.slider li {
+		  position: absolute;
+		  left: 0px;
+		  top: 0px;
+		  opacity: 0;
+		  width: inherit;
+		  height: inherit;
+		  transition: opacity .5s;
+		  background:#fff;
+	  }
+	  
+	  ul.slider li img{
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	  }
+	  
+	  ul.slider li:first-child {
+		  opacity: 1; /*Mostramos el primer <li>*/
+	  }
+	  
+	  ul.slider li:target {
+		  opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+	  }
+	  
+	  .menu{
+		text-align: center;
+		margin: 20px;
+	  }
+	  
+	  .menu li{
+		display: inline-block;
+		text-align: center;
+	  }
+	  
+	  .menu li a{
+		display: inline-block;
+		color: white;
+		text-decoration: none;
+		background-color: grey;
+		padding: 10px;
+		width: 20px;
+		height: 20px;
+		font-size: 20px;
+		border-radius: 100%;
+	  }	
